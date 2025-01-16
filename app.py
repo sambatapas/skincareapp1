@@ -64,8 +64,6 @@ export default function SkinCareTest() {
       recommendation += 'Try to increase your daily water intake to improve skin hydration. '
     }
 
-    recommendation += `Continue using ${data.currentProducts} if they work well for you, but consider incorporating our recommendations if you're looking to improve your routine.`
-
     return recommendation
   }
 
