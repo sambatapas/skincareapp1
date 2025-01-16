@@ -76,7 +76,6 @@ export default function SkinCareTest() {
         <CardContent>
           {step === 0 && (
             <div className="space-y-4">
-              <h2 className="text-lg font-semibold">What's your skin type?</h2>
               <RadioGroup 
                 value={userData.skinType} 
                 onValueChange={(value) => setUserData({...userData, skinType: value})}
